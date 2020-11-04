@@ -1,2 +1,2 @@
 # 403FinalProject
-Website for Gather
+Website for Gathre
