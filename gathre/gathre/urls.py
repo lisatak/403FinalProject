@@ -17,8 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-
-
+    path('', include('home.urls')),
     path('database/', include('database.urls')),
-    path('', include('login.urls'))
+    path('login/', include('login.urls')),
+    path('add/', include('addToDatabase.urls'))
 ]

@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def addPageView(request):
-    return HttpResponse('Database page')
+    return render(request, 'add/index.html')
